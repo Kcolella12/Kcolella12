@@ -1,0 +1,17 @@
+.logo {
+    width: 100px;
+}
+ .main-header {
+     background-color: rgb(150, 204, 251);
+     font-family: Arial, Helvetica, sans-serif; 
+ }
+ .navigation
+     background-color::backdrop black
+     text-allign: center
+}
+.navigation a {
+    color:  #fdfdfd;
+    text-decoration: none; 
+    padding: 12px; 
+    display: inline; 
+}
