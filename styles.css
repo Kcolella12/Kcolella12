@@ -2,16 +2,68 @@
     width: 100px;
 }
  .main-header {
-     background-color: rgb(150, 204, 251);
+     background-color: rgb(235, 22, 58);
      font-family: Arial, Helvetica, sans-serif; 
  }
- .navigation
-     background-color::backdrop black
-     text-allign: center
+ .navigation {
+     background-color:black;
+     text-align: center;
 }
 .navigation a {
     color:  #fdfdfd;
     text-decoration: none; 
     padding: 12px; 
-    display: inline; 
+    display: inline-block;
+}
+.navigation a:hover {
+    color: black;
+    background-color: white;
+}
+body{
+    background-color: rgb(209, 209, 209);
+    font-family:'Source Code Pro', monospace;
+    margin: 0;
+}
+.banner {
+    background-image: url("graphics/frank-mckenna-OD9EOzfSOh0-unsplash\ \(1\).jpg");
+    aspect-ratio: 16/5;
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    place-items: center;
+}
+.banner h1 {
+    font-size: 250%;
+    color:white;
+    text-shadow: black 2px 2px 1px;
+}
+.social a{
+    text-decoration: none;
+    color: black;
+    font-size: 200%; 
+    margin: 0 20px;
+}
+.social {
+    text-align:center
+}
+/* pseudo selector / class */
+.social a:hover {
+    color: yellow
+
+}
+
+.content {
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 30px; 
+    /* margin-top: 30px; */
+    margin: 30px;
+
+}
+.card img {
+    max-width: 100%;
+}
+.card-image {
+    aspect-ratio: 4/2.5;
+    overflow: hidden;
 }
