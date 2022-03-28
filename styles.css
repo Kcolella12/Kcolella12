@@ -67,3 +67,46 @@ body{
     aspect-ratio: 4/2.5;
     overflow: hidden;
 }
+/* sleector for element that has both banner and contact classes */
+.banner .contact{
+    background-image: url("graphics/hide-obara-z6lvPG4Oj4c-unsplash.jpg");
+
+}
+
+.content.contact {
+    grid-template-columns: 1fr 2fr 1fr;
+
+}
+
+#contact-form{
+    grid-column-start: 2;
+    background-color:#ebe9e9 ;
+    padding: 30px; 
+    border-radius: 10px;
+}
+/* form styles */
+ #contact-form > label {
+     display: block;
+     font-weight: bold;
+    }
+{
+ #contact-form > input
+    #contact-form > select
+    #contact-form > textarea
+     min-width: 100%;
+     margain-bottom: 20px;
+     padding: 10px;
+     display: block;
+     box-sizing: border-box;
+     border-radius: 5px 
+     border: solid 1px #cccccc;
+}
+{#contact-form >input:focus
+    outline: rgb(red, green, blue) solid 1px; 
+
+}
+.checkbox, .radio {
+    padding: 15 0;
+
+
+ }
