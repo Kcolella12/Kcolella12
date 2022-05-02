@@ -89,19 +89,19 @@ body{
      display: block;
      font-weight: bold;
     }
-{
- #contact-form > input
-    #contact-form > select
-    #contact-form > textarea
+
+ #contact-form > input,
+    #contact-form > select,
+    #contact-form > textarea {
      min-width: 100%;
-     margain-bottom: 20px;
+     margin-bottom: 20px;
      padding: 10px;
      display: block;
      box-sizing: border-box;
-     border-radius: 5px 
+     border-radius: 5px;
      border: solid 1px #cccccc;
 }
-{#contact-form >input:focus
+#contact-form >input:focus {
     outline: rgb(red, green, blue) solid 1px; 
 
 }
