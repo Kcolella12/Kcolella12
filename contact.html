@@ -4,22 +4,22 @@
 
 <head>
   <title>Contact Page</title>
-  <meta name="author" content="johannes">
+  <meta name="author" content="Kade">
   <meta charset="utf8">
   <link rel="stylesheet" href="styles.css">
-  <link rel="icon" href="graphics/img_566323.png">
+  <link rel="icon" href="graphics/sean-oulashin-KMn4VEeEPR8-unsplash (1).jpg">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
-    integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+    integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg"
     crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <!-- body is document content -->
 
 <body>
   <header class="main-header">
-    <img class="logo" src="graphics/linux_PNG42.png">
+    <img class="logo" src="graphics/sorrento_by_the_sea_logo.jpg">
     <nav class="navigation">
       <a href="index.html">Home</a>
       <a href="about.html">About</a>
@@ -27,40 +27,31 @@
       <a href="contact.html">Contact</a>
     </nav>
   </header>
-  <div class="banner contact">
+  <div class="banner">
     <h1>Contact Us</h1>
   </div>
   <main class="content contact">
     <form id="contact-form" method="get" action="/" role="form">
-        <label for="username">Your name</label>
-        <input type="text" id="username" name="name" placeholder="Jane Smith">
-        <label for="useremail">Your email address</label>
-        <input type="email" id="useremail" name="email" placeholder="jamesmith@example.com ">
-        <!--checkbox-->
-        <input type="checkbox" id="marketing" name="marketing" value="true" > 
-        <label for="marketing">Yes, I want to recieve information about new products</label>
-    </div>
-          <div class="radio"> 
-            <!-- radio buttons-->
-        <input type="radio" name="origin" id="origin1" value="au">
-        <input type="radio" name="origin" id="origin2" value="int"></input>
-        <label for="origin1">I am in Australia</label>
-       <label for =origin2>I am outside Australia</label>
-       <input type="radio" name="origin" id="origin3" value="ant">
-       <label for="origin3">I am in Antartica</label></label>
-       <!--select-->
-       <label for="useroptions">Options</label>
-       <select placeholder="select one" id="useroptions" name="options">
-         <option value="1">option 1</option>
-         <option value="2">option 2</option>
-         <option value="3">option 3</option>
-         </select>
-        <label>Message</label>
-        <textarea name="message" id="message" rows="5" cols="30"></textarea>
-        <button type="reset">reset</button>
-        <button type="submit">Submit</button>
+      <label for="username">Your name</label>
+      <input type="text" id="username" name="name" placeholder="Jane Smith">
+      <label for="useremail">Your email address</label>
+      <input type="email" id="useremail" name="email" placeholder="jamesmith@example.com ">
+      <!--checkbox-->
+      <div class="checkbox">
+        <input type="checkbox" id="marketing" name="marketing" value="true">
+        <label for="marketing">Yes, I want to recieve information about new deals</label>
+      </div>
+      <p>information and booking</p>
+      <p>0435 123 456</p>
+      <p>42 holyrood Avenue Sorento VIC 3943</p>
 
-        
+      <label>Message</label>
+      <textarea name="message" id="message" rows="5" cols="30"></textarea>
+      <br>
+      <button type="reset">reset</button>
+      <button type="submit">Submit</button>
+
+
     </form>
   </main>
   <footer class="footer">
@@ -76,7 +67,9 @@
       </a>
       <a href="https://www.linkedin.com/company/tafe-nsw">
         <i class="fa-brands fa-linkedin"></i>
-      </a>
+        <a href="https://www.linkedin.com/company/tafe-nsw">
+          <i class="fa-brands fa-paypal"></i>
+        </a>
     </nav>
   </footer>
 </body>
